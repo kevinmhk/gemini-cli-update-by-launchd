@@ -2,6 +2,11 @@
 
 This project provides a simple and robust way to automatically keep the `@google/gemini-cli` npm package updated on macOS using the system's native scheduler, `launchd`.
 
+# 14 AUG 2025 UPDATE:
+
+THIS UTILITY IS NOW DEPRECATED AND WILL NOT BE MAINTAINED AS GEMINI CLI GAINED BUILT IN AUTO UPDATE FEATURE SINCE `Release: v0.1.18` on 28 JULY 2025.
+
+
 ## Design
 
 The core of this solution is a `launchd` agent, which is a service managed by the operating system. Using `launchd` is the standard and most reliable method for running scheduled tasks on macOS. It is superior to `cron` because it will run missed jobs if the computer was asleep or off at the scheduled time.
